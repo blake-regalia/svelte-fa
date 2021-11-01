@@ -44,7 +44,6 @@ $: i = (icon && icon.icon) || [0, 0, '', [], ''];
 $: c = joinCss(
   [
     clazz,
-    'fa',
     spin && 'spin',
     pulse && 'pulse',
   ],
